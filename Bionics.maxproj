@@ -2,7 +2,7 @@
 	"name" : "Bionics",
 	"version" : 1,
 	"creationdate" : 3511879347,
-	"modificationdate" : 3512118009,
+	"modificationdate" : 3513418102,
 	"viewrect" : [ 60.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -26,17 +26,17 @@
 				"local" : 1
 			}
 ,
+			"job.power-level.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
 			"Pipe-Magnitude.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
 ,
 			"Magnitude-Accleration.maxpat" : 			{
-				"kind" : "patcher",
-				"local" : 1
-			}
-,
-			"job.power-level.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}
