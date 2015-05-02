@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 458.0, 424.0, 674.0, 539.0 ],
+		"rect" : [ 433.0, 79.0, 876.0, 749.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 1,
 		"default_fontsize" : 12.0,
@@ -56,7 +56,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 252.0, 138.0, 150.0, 20.0 ],
+					"patching_rect" : [ 18.0, 126.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 17.0, 6.0, 78.0, 20.0 ],
 					"style" : "",
@@ -70,7 +70,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 251.0, 154.0, 150.0, 20.0 ],
+					"patching_rect" : [ 17.0, 142.0, 150.0, 20.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 12.0, 69.0, 45.0, 20.0 ],
 					"style" : "",
@@ -138,7 +138,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 31.0, 288.0, 50.0, 263.0 ],
+					"patching_rect" : [ 10.0, 288.0, 50.0, 263.0 ],
 					"style" : "",
 					"text" : "-0.609756 3.963415 -0.243902 0.023926 -0.041504 1.060059 0.235897 -0.374359 -0.179487 55.45"
 				}
@@ -418,7 +418,7 @@
 					"numoutlets" : 4,
 					"outlettype" : [ "", "int", "", "" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 402.5, 211.0, 100.0, 50.0 ],
+					"patching_rect" : [ 410.5, 155.0, 100.0, 50.0 ],
 					"presentation" : 1,
 					"presentation_rect" : [ 58.0, 69.0, 50.0, 21.0 ],
 					"style" : "",
@@ -781,57 +781,52 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-80::obj-76" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-80::obj-77" : [ "live.slider", "live.slider", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "SignalDashboard.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "job.power-level.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Pipe-Magnitude.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Magnitude-Acceleration.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IIR4.maxpat",
-				"bootpath" : "~/Documents/Max 7/Externals/iir4-mocap-filters",
-				"patcherrelativepath" : "../../../Externals/iir4-mocap-filters",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IIR4_internal.maxpat",
-				"bootpath" : "~/Documents/Max 7/Externals/iir4-mocap-filters",
-				"patcherrelativepath" : "../../../Externals/iir4-mocap-filters",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "running-average.maxpat",
-				"bootpath" : "~/Documents/Max 7/Externals/CNMAT-MMJ-Depot-master/patchers/data_streams",
-				"patcherrelativepath" : "../../../Externals/CNMAT-MMJ-Depot-master/patchers/data_streams",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
