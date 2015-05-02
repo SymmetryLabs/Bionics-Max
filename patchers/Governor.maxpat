@@ -9,7 +9,7 @@
 			"modernui" : 1
 		}
 ,
-		"rect" : [ 402.0, 114.0, 680.0, 697.0 ],
+		"rect" : [ 88.0, 79.0, 996.0, 784.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -68,7 +68,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 412.0, 57.0, 22.0 ],
+					"patching_rect" : [ 405.0, 462.0, 57.0, 22.0 ],
 					"style" : "",
 					"text" : "36 127 0"
 				}
@@ -80,7 +80,7 @@
 					"maxclass" : "newobj",
 					"numinlets" : 3,
 					"numoutlets" : 0,
-					"patching_rect" : [ 372.0, 474.0, 51.0, 22.0 ],
+					"patching_rect" : [ 394.0, 524.0, 51.0, 22.0 ],
 					"style" : "",
 					"text" : "noteout"
 				}
@@ -130,7 +130,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 383.0, 317.0, 43.0, 22.0 ],
+					"patching_rect" : [ 405.0, 367.0, 43.0, 22.0 ],
 					"style" : "",
 					"text" : "past 2"
 				}
@@ -180,9 +180,9 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 83.0, 235.0, 64.0, 22.0 ],
+					"patching_rect" : [ 83.0, 276.0, 64.0, 22.0 ],
 					"style" : "",
-					"text" : "1.061094"
+					"text" : "0.984783"
 				}
 
 			}
@@ -193,7 +193,7 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 383.0, 235.0, 64.0, 22.0 ],
+					"patching_rect" : [ 405.0, 285.0, 64.0, 22.0 ],
 					"style" : "",
 					"text" : "0.942925"
 				}
@@ -335,66 +335,59 @@
 
 			}
  ],
-		"parameters" : 		{
-			"obj-3::obj-80::obj-76" : [ "live.gain~[1]", "live.gain~", 0 ],
-			"obj-2::obj-80::obj-76" : [ "live.gain~", "live.gain~", 0 ],
-			"obj-3::obj-80::obj-77" : [ "live.slider[1]", "live.slider", 0 ],
-			"obj-2::obj-80::obj-77" : [ "live.slider", "live.slider", 0 ]
-		}
-,
 		"dependency_cache" : [ 			{
 				"name" : "Henchman.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SignalDashboard.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "job.power-level.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Pipe-Magnitude.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Magnitude-Acceleration.maxpat",
-				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IIR4.maxpat",
-				"bootpath" : "~/Documents/Max 7/Externals/iir4-mocap-filters",
-				"patcherrelativepath" : "../../../Externals/iir4-mocap-filters",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IIR4_internal.maxpat",
-				"bootpath" : "~/Documents/Max 7/Externals/iir4-mocap-filters",
-				"patcherrelativepath" : "../../../Externals/iir4-mocap-filters",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "running-average.maxpat",
-				"bootpath" : "~/Documents/Max 7/Externals/CNMAT-MMJ-Depot-master/patchers/data_streams",
-				"patcherrelativepath" : "../../../Externals/CNMAT-MMJ-Depot-master/patchers/data_streams",
+				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
