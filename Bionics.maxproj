@@ -2,7 +2,7 @@
 	"name" : "Bionics",
 	"version" : 1,
 	"creationdate" : 3511879347,
-	"modificationdate" : 3513418809,
+	"modificationdate" : 3513421926,
 	"viewrect" : [ 60.0, 45.0, 300.0, 500.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
@@ -37,6 +37,11 @@
 			}
 ,
 			"Magnitude-Accleration.maxpat" : 			{
+				"kind" : "patcher",
+				"local" : 1
+			}
+,
+			"job.color-gyrator.maxpat" : 			{
 				"kind" : "patcher",
 				"local" : 1
 			}

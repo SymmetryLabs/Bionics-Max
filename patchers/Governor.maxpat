@@ -210,13 +210,13 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Henchman.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 428.0, 106.0, 117.0, 95.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 428.0, 106.0, 166.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 428.0, 106.0, 117.0, 95.0 ],
+					"presentation_rect" : [ 428.0, 106.0, 164.0, 134.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -232,13 +232,13 @@
 					"lockeddragscroll" : 0,
 					"maxclass" : "bpatcher",
 					"name" : "Henchman.maxpat",
-					"numinlets" : 0,
+					"numinlets" : 1,
 					"numoutlets" : 1,
 					"offset" : [ 0.0, 0.0 ],
-					"outlettype" : [ "float" ],
-					"patching_rect" : [ 128.0, 106.0, 117.0, 95.0 ],
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 128.0, 106.0, 166.0, 132.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 128.0, 106.0, 117.0, 95.0 ],
+					"presentation_rect" : [ 128.0, 106.0, 165.0, 134.0 ],
 					"viewvisibility" : 1
 				}
 
@@ -337,63 +337,66 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "Henchman.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "SignalDashboard.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "job.power-level.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Pipe-Magnitude.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "Magnitude-Acceleration.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IIR4.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "IIR4_internal.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "running-average.maxpat",
-				"bootpath" : "~/Code/symmetry/Bionics-Max/patchers",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "o.route.mxo",
-				"type" : "iLaX"
+				"name" : "job.color-gyrator.maxpat",
+				"bootpath" : "~/Documents/Max 7/Projects/Bionics/patchers",
+				"patcherrelativepath" : ".",
+				"type" : "JSON",
+				"implicit" : 1
 			}
 , 			{
 				"name" : "o.pack.mxo",
